@@ -1,4 +1,8 @@
 
+#### Purpose
+
+When running continuous integration or continuous deployment, it is sometimes advantageous to synchronously wait for a CloudFormation Stack to complete rollout, so that one can run integration tests against the completed cloud deployment. This small script offers a simple node.js script which allows the user to specify a Stack to wait on via command line inputs.
+
 #### Usage
 
 
