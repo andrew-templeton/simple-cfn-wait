@@ -1,0 +1,28 @@
+{
+  "name": "simple-cfn-wait",
+  "version": "0.0.1",
+  "description": "One line of bash to wait for a cloudformation stack to finish creating via polling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrew-templeton/simple-cfn-wait.git"
+  },
+  "keywords": [
+    "cloudformation",
+    "wait",
+    "polling",
+    "testing"
+  ],
+  "dependencies": {
+    "aws-sdk": "2.2.29"
+  },
+  "author": "Andrew Templeton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrew-templeton/simple-cfn-wait/issues"
+  },
+  "homepage": "https://github.com/andrew-templeton/simple-cfn-wait#readme"
+}
